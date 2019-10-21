@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteAPI" thread-count="5">
+
+	<listeners>
+
+		<listener class-name="com.hellofresh.basemanager.ExtentListeners"></listener>
+
+	</listeners>
+
+	<test name="GetAllCountriesTest">
+		<classes>
+
+
+			<class name="com.hellofresh.apitest.GetAllCountriesTest" />
+
+		</classes>
+	</test>
+
+	<test name="GetCountryByAlphaCodeTest">
+		<classes>
+
+			<class name="com.hellofresh.apitest.GetCountryByAlphaCodeTest" />
+
+		</classes>
+	</test>
+
+
+	<test name="GetCountryByNameWithInvalidData">
+		<classes>
+
+
+			<class name="com.hellofresh.apitest.GetCountryByNameWithInvalidData" />
+		</classes>
+	</test>
+
+
+
+
+	<test name="PostCountryTest_APINotYetDeveloped">
+		<classes>
+
+
+			<class name="com.hellofresh.apitest.PostCountryTest" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests"><!-- //parallel="tests" -->
+	<parameter name="shoppingPortalURL" value="http://automationpractice.com/index.php" />
+	<parameter name="browser" value="chrome" />
+
+	<listeners>
+
+		<listener class-name="com.hellofresh.basemanager.ExtentListeners"></listener>
+
+	</listeners>
+
+	<test name="ShoppingPortalRegistrationTest">
+
+		<classes>
+			<class name="com.hellofresh.challenge.ShoppingPortalRegistrationTest" />
+
+
+		</classes>
+	</test>
+
+	<test name="ShoppingPortalLoginTest">
+
+		<classes>
+			<class name="com.hellofresh.challenge.ShoppingPortalLoginTest" />
+
+
+		</classes>
+	</test>
+
+	<test name="ShoppingPortalCheckoutTest">
+
+		<classes>
+			<class name="com.hellofresh.challenge.ShoppingPortalCheckoutTest" />
+
+
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->

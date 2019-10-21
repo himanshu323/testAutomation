@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SuiteAPI]">
+  <listeners>
+    <listener class-name="com.hellofresh.basemanager.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="PostCountryTest_APINotYetDeveloped(failed)">
+    <classes>
+      <class name="com.hellofresh.apitest.PostCountryTest">
+        <methods>
+          <include name="postCountry"/>
+          <include name="setupTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.hellofresh.apitest.PostCountryTest -->
+    </classes>
+  </test> <!-- PostCountryTest_APINotYetDeveloped(failed) -->
+</suite> <!-- Failed suite [SuiteAPI] -->

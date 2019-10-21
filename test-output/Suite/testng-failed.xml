@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="shoppingPortalURL" value="http://automationpractice.com/index.php"/>
+  <listeners>
+    <listener class-name="com.hellofresh.basemanager.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="com.hellofresh.challenge.ShoppingPortalCheckoutTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="CloseBrowser"/>
+          <include name="orderProcessing_CheckoutTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.hellofresh.challenge.ShoppingPortalCheckoutTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23864" started-at="2019-10-09T19:23:29Z" finished-at="2019-10-09T19:23:53Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="13625" started-at="2019-10-09T19:23:29Z" finished-at="2019-10-09T19:23:43Z">
+      <class name="com.hellofresh.challenge.ShoppingPortalLoginTest">
+        <test-method status="PASS" signature="setupTest(java.lang.String, java.lang.String)[pri:0, instance:com.hellofresh.challenge.ShoppingPortalLoginTest@56235b8e]" name="setupTest" is-config="true" duration-ms="6511" started-at="2019-10-09T19:23:29Z" finished-at="2019-10-09T19:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="loginInTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hellofresh.challenge.ShoppingPortalLoginTest@56235b8e]" name="loginInTest" duration-ms="3997" started-at="2019-10-09T19:23:36Z" data-provider="ShoppingPortal" finished-at="2019-10-09T19:23:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[himanshuarora323@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[QA90qa90]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInTest -->
+        <test-method status="PASS" signature="clickLogout()[pri:0, instance:com.hellofresh.challenge.ShoppingPortalLoginTest@56235b8e]" name="clickLogout" is-config="true" duration-ms="2479" started-at="2019-10-09T19:23:40Z" finished-at="2019-10-09T19:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogout -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.hellofresh.challenge.ShoppingPortalLoginTest@56235b8e]" name="CloseBrowser" is-config="true" duration-ms="108" started-at="2019-10-09T19:23:43Z" depends-on-methods="com.hellofresh.challenge.ShoppingPortalLoginTest.clickLogout" finished-at="2019-10-09T19:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.hellofresh.challenge.ShoppingPortalLoginTest -->
+    </test> <!-- Test2 -->
+    <test name="Test" duration-ms="15912" started-at="2019-10-09T19:23:29Z" finished-at="2019-10-09T19:23:45Z">
+      <class name="com.hellofresh.challenge.ShoppingPortalRegistrationTest">
+        <test-method status="PASS" signature="setupTest(java.lang.String, java.lang.String)[pri:0, instance:com.hellofresh.challenge.ShoppingPortalRegistrationTest@69ea3742]" name="setupTest" is-config="true" duration-ms="6673" started-at="2019-10-09T19:23:29Z" finished-at="2019-10-09T19:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="registrationForShoppingPortal()[pri:0, instance:com.hellofresh.challenge.ShoppingPortalRegistrationTest@69ea3742]" name="registrationForShoppingPortal" duration-ms="7340" started-at="2019-10-09T19:23:36Z" finished-at="2019-10-09T19:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationForShoppingPortal -->
+        <test-method status="PASS" signature="clickLogout()[pri:0, instance:com.hellofresh.challenge.ShoppingPortalRegistrationTest@69ea3742]" name="clickLogout" is-config="true" duration-ms="1800" started-at="2019-10-09T19:23:43Z" finished-at="2019-10-09T19:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogout -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.hellofresh.challenge.ShoppingPortalRegistrationTest@69ea3742]" name="CloseBrowser" is-config="true" duration-ms="93" started-at="2019-10-09T19:23:45Z" depends-on-methods="com.hellofresh.challenge.ShoppingPortalRegistrationTest.clickLogout" finished-at="2019-10-09T19:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.hellofresh.challenge.ShoppingPortalRegistrationTest -->
+    </test> <!-- Test -->
+    <test name="Test3" duration-ms="23864" started-at="2019-10-09T19:23:29Z" finished-at="2019-10-09T19:23:53Z">
+      <class name="com.hellofresh.challenge.ShoppingPortalCheckoutTest">
+        <test-method status="PASS" signature="setupTest(java.lang.String, java.lang.String)[pri:0, instance:com.hellofresh.challenge.ShoppingPortalCheckoutTest@5f9d02cb]" name="setupTest" is-config="true" duration-ms="6576" started-at="2019-10-09T19:23:29Z" finished-at="2019-10-09T19:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="orderProcessing_CheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hellofresh.challenge.ShoppingPortalCheckoutTest@5f9d02cb]" name="orderProcessing_CheckoutTest" duration-ms="15095" started-at="2019-10-09T19:23:36Z" data-provider="ShoppingPortal" finished-at="2019-10-09T19:23:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[himanshuarora323@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[QA90qa90]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderProcessing_CheckoutTest -->
+        <test-method status="PASS" signature="clickLogout()[pri:0, instance:com.hellofresh.challenge.ShoppingPortalCheckoutTest@5f9d02cb]" name="clickLogout" is-config="true" duration-ms="1637" started-at="2019-10-09T19:23:51Z" finished-at="2019-10-09T19:23:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogout -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.hellofresh.challenge.ShoppingPortalCheckoutTest@5f9d02cb]" name="CloseBrowser" is-config="true" duration-ms="96" started-at="2019-10-09T19:23:53Z" depends-on-methods="com.hellofresh.challenge.ShoppingPortalCheckoutTest.clickLogout" finished-at="2019-10-09T19:23:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.hellofresh.challenge.ShoppingPortalCheckoutTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
