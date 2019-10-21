@@ -1,8 +1,7 @@
-/Users/himarora1/Downloads/qa-test-hf/src/test/java/com/hellofresh/apitest/GetCountryByAlphaCodeTest.java
-/Users/himarora1/Downloads/qa-test-hf/src/test/java/com/hellofresh/apitest/GetCountryByNameWithInvalidData.java
-/Users/himarora1/Downloads/qa-test-hf/src/test/java/com/hellofresh/challenge/ShoppingPortalCheckoutTest.java
-/Users/himarora1/Downloads/qa-test-hf/src/test/java/com/hellofresh/challenge/ShoppingPortalRegistrationTest.java
-/Users/himarora1/Downloads/qa-test-hf/src/test/java/com/hellofresh/challenge/ShoppingPortalLoginTest.java
-/Users/himarora1/Downloads/qa-test-hf/src/test/java/com/hellofresh/apitest/GetAllCountriesTest.java
-/Users/himarora1/Downloads/qa-test-hf/src/test/java/com/hellofresh/apitest/PostCountryTest.java
-/Users/himarora1/Downloads/qa-test-hf/src/test/java/com/hellofresh/challenge/WebTest.java
+/Users/himarora1/Desktop/testAutomation/src/test/java/com/testautomation/ui/ShoppingPortalRegistrationTest.java
+/Users/himarora1/Desktop/testAutomation/src/test/java/com/testautomation/ui/ShoppingPortalLoginTest.java
+/Users/himarora1/Desktop/testAutomation/src/test/java/com/testautomation/apitest/GetCountryByAlphaCodeTest.java
+/Users/himarora1/Desktop/testAutomation/src/test/java/com/testautomation/apitest/PostCountryTest.java
+/Users/himarora1/Desktop/testAutomation/src/test/java/com/testautomation/ui/ShoppingPortalCheckoutTest.java
+/Users/himarora1/Desktop/testAutomation/src/test/java/com/testautomation/apitest/GetCountryByNameWithInvalidData.java
+/Users/himarora1/Desktop/testAutomation/src/test/java/com/testautomation/apitest/GetAllCountriesTest.java

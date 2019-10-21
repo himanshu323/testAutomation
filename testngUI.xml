@@ -6,14 +6,14 @@
 
 	<listeners>
 
-		<listener class-name="com.hellofresh.basemanager.ExtentListeners"></listener>
+		<listener class-name="com.testautomation.basemanager.ExtentListeners"></listener>
 
 	</listeners>
 
 	<test name="ShoppingPortalRegistrationTest">
 
 		<classes>
-			<class name="com.hellofresh.challenge.ShoppingPortalRegistrationTest" />
+			<class name="com.testautomation.ui.ShoppingPortalRegistrationTest" />
 
 
 		</classes>
@@ -22,7 +22,7 @@
 	<test name="ShoppingPortalLoginTest">
 
 		<classes>
-			<class name="com.hellofresh.challenge.ShoppingPortalLoginTest" />
+			<class name="com.testautomation.ui.ShoppingPortalLoginTest" />
 
 
 		</classes>
@@ -31,7 +31,7 @@
 	<test name="ShoppingPortalCheckoutTest">
 
 		<classes>
-			<class name="com.hellofresh.challenge.ShoppingPortalCheckoutTest" />
+			<class name="com.testautomation.ui.ShoppingPortalCheckoutTest" />
 
 
 		</classes>

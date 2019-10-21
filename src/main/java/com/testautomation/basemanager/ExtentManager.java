@@ -30,7 +30,7 @@ public class ExtentManager {
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("Automation Tester", "Himanshu Arora");
-		extent.setSystemInfo("Organization", "Hellofresh");
+		extent.setSystemInfo("Organization", "Test Automation");
 		extent.setSystemInfo("Build no", "TestABC");
 
 		return extent;

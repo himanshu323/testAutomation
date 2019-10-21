@@ -1,7 +1,7 @@
-com/hellofresh/apitest/GetCountryByAlphaCodeTest.class
-com/hellofresh/apitest/PostCountryTest.class
-com/hellofresh/challenge/ShoppingPortalRegistrationTest.class
-com/hellofresh/challenge/ShoppingPortalLoginTest.class
-com/hellofresh/challenge/ShoppingPortalCheckoutTest.class
-com/hellofresh/apitest/GetCountryByNameWithInvalidData.class
-com/hellofresh/apitest/GetAllCountriesTest.class
+com/testautomation/ui/ShoppingPortalLoginTest.class
+com/testautomation/apitest/GetAllCountriesTest.class
+com/testautomation/apitest/PostCountryTest.class
+com/testautomation/ui/ShoppingPortalCheckoutTest.class
+com/testautomation/apitest/GetCountryByAlphaCodeTest.class
+com/testautomation/apitest/GetCountryByNameWithInvalidData.class
+com/testautomation/ui/ShoppingPortalRegistrationTest.class

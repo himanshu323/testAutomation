@@ -4,7 +4,7 @@
 
 	<listeners>
 
-		<listener class-name="com.hellofresh.basemanager.ExtentListeners"></listener>
+		<listener class-name="com.testautomation.basemanager.ExtentListeners"></listener>
 
 	</listeners>
 
@@ -12,7 +12,7 @@
 		<classes>
 
 
-			<class name="com.hellofresh.apitest.GetAllCountriesTest" />
+			<class name="com.testautomation.apitest.GetAllCountriesTest" />
 
 		</classes>
 	</test>
@@ -20,7 +20,7 @@
 	<test name="GetCountryByAlphaCodeTest">
 		<classes>
 
-			<class name="com.hellofresh.apitest.GetCountryByAlphaCodeTest" />
+			<class name="com.testautomation.apitest.GetCountryByAlphaCodeTest" />
 
 		</classes>
 	</test>
@@ -30,7 +30,7 @@
 		<classes>
 
 
-			<class name="com.hellofresh.apitest.GetCountryByNameWithInvalidData" />
+			<class name="com.testautomation.apitest.GetCountryByNameWithInvalidData" />
 		</classes>
 	</test>
 
@@ -41,7 +41,7 @@
 		<classes>
 
 
-			<class name="com.hellofresh.apitest.PostCountryTest" />
+			<class name="com.testautomation.apitest.PostCountryTest" />
 		</classes>
 	</test>
 </suite> <!-- Suite -->
