@@ -80,3 +80,16 @@
 * Order confirmation page(?controller=order-confirmation) is opened
 * The order is complete.
 * Current page is the last step of ordering 
+
+
+
+## Screenshots
+
+
+#### Extent Report UI Tests Snapshot - I:
+![ScreenShot](https://github.com/himanshu323/web-test/blob/master/images/UITests.png?raw=true)
+
+
+#### Extent Report API Tests Snapshot - II:
+![ScreenShot](https://github.com/himanshu323/web-test/blob/master/images/APITests.png?raw=true)
+
