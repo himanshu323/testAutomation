@@ -7,7 +7,7 @@
 * Download Apache Maven and configure **MAVEN_HOME** environment variable for the same and add it into existing “Path” environment variable 
 * Install Eclipse IDE any other IDE of your choice.
 * Clone/Download the project and import the  maven project in Eclipse IDE workspace. 
-  `https://github.com/himanshu323/web-test.git`
+  git clone `https://github.com/himanshu323/web-test.git`
 * Update the maven project , just to make ensure that maven has downloaded all the necessary dependencies in your local repository from maven central.( `web-test -> Right Click -> Maven -> Update Project`)
 * Open command prompt and navigate to project directory, run `mvn clean test` to start the automation execution OR right click on the project in your IDE->Run As->Maven Test.
 * Test Run will contain both UI tests and API tests. `Both testngUI.xml and testngAPI.xml files are executed once you run 'mvn clean test'` .
