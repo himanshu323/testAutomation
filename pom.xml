@@ -11,7 +11,7 @@
     <junit.version>4.11</junit.version>
     <selenium.version>3.14.0</selenium.version>
     <testng.version>6.14.3</testng.version>
-    <poi.version>3.16</poi.version>
+    <poi.version>3.17</poi.version>
     <poiooxml.version>3.16</poiooxml.version>
     <extentreports.version>3.1.2</extentreports.version>
     <commonsio.version>2.6</commonsio.version>
