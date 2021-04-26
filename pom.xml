@@ -14,7 +14,7 @@
     <poi.version>3.16</poi.version>
     <poiooxml.version>3.16</poiooxml.version>
     <extentreports.version>3.1.2</extentreports.version>
-    <commonsio.version>2.6</commonsio.version>
+    <commonsio.version>2.7</commonsio.version>
   </properties>
 
   <dependencies>
